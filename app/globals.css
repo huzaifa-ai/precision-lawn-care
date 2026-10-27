@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Precision Lawn Care palette — deep forest green + fresh lime */
+    --background: 0 0% 100%;
+    --foreground: 150 25% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 25% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 25% 12%;
+
+    /* Primary: deep forest green */
+    --primary: 149 38% 18%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Secondary: lighter sage */
+    --secondary: 142 22% 92%;
+    --secondary-foreground: 149 38% 18%;
+
+    /* Accent: fresh lime */
+    --accent: 78 70% 52%;
+    --accent-foreground: 150 40% 12%;
+
+    --muted: 142 18% 95%;
+    --muted-foreground: 150 12% 38%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 142 18% 88%;
+    --input: 142 18% 88%;
+    --ring: 78 70% 52%;
+
+    --chart-1: 149 38% 28%;
+    --chart-2: 78 70% 52%;
+    --chart-3: 35 75% 55%;
+    --chart-4: 200 55% 45%;
+    --chart-5: 18 70% 55%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "cv01";
+    font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  }
+  h1, h2, h3, h4 {
+    @apply tracking-tight;
+    font-family: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .plc-input {
+    @apply w-full rounded-xl border-2 border-border bg-white px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/70 transition-colors;
+    @apply focus:border-primary focus:outline-none focus:ring-2 focus:ring-accent/40;
+  }
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: hsl(142 18% 95%); }
+::-webkit-scrollbar-thumb { background: hsl(149 38% 30% / 0.4); border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(149 38% 30% / 0.6); }
+
+.hero-grid {
+  background-image: linear-gradient(rgba(255,255,255,.6) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.6) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+}
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+::selection { background: hsl(78 70% 52%); color: #07170f; }
