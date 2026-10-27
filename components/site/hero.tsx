@@ -15,7 +15,7 @@ export function Hero() {
   const imgScale = useTransform(p, [0, 0.7], [0.68, 1]);
   const radius = useTransform(p, [0, 0.7], [36, 0]);
   const innerScale = useTransform(p, [0, 1], [1.35, 1]);
-  const headY = useTransform(p, [0, 0.5], [0, -140]);
+  const headY = useTransform(p, [0, 0.5], [-28, -168]);
   const headOp = useTransform(p, [0, 0.4], [1, 0]);
   const overlayOp = useTransform(p, [0.55, 0.85], [0, 1]);
   const overlayY = useTransform(p, [0.55, 0.9], [60, 0]);
