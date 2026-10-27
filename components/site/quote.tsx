@@ -15,7 +15,7 @@ export function Quote() {
               Get a quote
             </p>
             <h2 className="mt-3 font-jakarta text-3xl font-extrabold text-primary sm:text-4xl lg:text-5xl text-balance">
-              Tell Brady about your yard
+              Tell them about your yard
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
               Fill out the form with as much detail as you like and Brady will
