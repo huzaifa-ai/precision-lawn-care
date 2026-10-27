@@ -11,7 +11,8 @@ export function Hero() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end end'] });
   const p = useSpring(scrollYProgress, { stiffness: 140, damping: 30, mass: 0.3 });
 
-  const imgY = useTransform(p, [0, 0.7], ['42vh', '0vh']);
+  // Image starts lower so it doesn't cover the headline on mobile
+  const imgY = useTransform(p, [0, 0.7], ['58vh', '0vh']);
   const imgScale = useTransform(p, [0, 0.7], [0.68, 1]);
   const radius = useTransform(p, [0, 0.7], [36, 0]);
   const innerScale = useTransform(p, [0, 1], [1.35, 1]);
@@ -33,7 +34,7 @@ export function Hero() {
         <div className="hero-grid pointer-events-none absolute inset-0 opacity-[0.07]" />
 
         {/* headline */}
-        <motion.div style={{ y: headY, opacity: headOp }} className="relative z-10 mx-auto max-w-6xl px-5 pt-32 text-center sm:pt-36">
+        <motion.div style={{ y: headY, opacity: headOp }} className="relative z-10 mx-auto max-w-6xl px-5 pt-28 text-center sm:pt-36">
           <motion.div
             initial={{ opacity: 0, y: 20, filter: 'blur(8px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
