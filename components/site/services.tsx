@@ -20,8 +20,8 @@ const services: Service[] = [
       'Weekly or bi-weekly mowing, edging and trimming to keep your lawn looking sharp all season long.',
     points: ['Mowing & edging', 'Trimming around beds', 'Tidy clippings'],
     image:
-      'https://images.pexels.com/photos/4162016/pexels-photo-4162016.jpeg?auto=compress&cs=tinysrgb&w=900',
-    alt: 'Lawn mower cutting fresh green grass',
+      'https://images.pexels.com/photos/12087398/pexels-photo-12087398.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    alt: 'Freshly mowed lush green lawn on a sunny day',
     tag: 'Most popular',
   },
   {
@@ -30,8 +30,8 @@ const services: Service[] = [
       'Garden bed care, weeding, hedge trimming and general upkeep so your whole property stays in shape.',
     points: ['Weeding & bed care', 'Hedge & shrub trimming', 'Debris hauling'],
     image:
-      'https://images.pexels.com/photos/19271862/pexels-photo-19271862.jpeg?auto=compress&cs=tinysrgb&w=900',
-    alt: 'Tidy garden path surrounded by lush greenery',
+      'https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    alt: 'Beautifully maintained garden with vibrant greenery',
     tag: 'Recurring',
   },
   {
@@ -40,8 +40,8 @@ const services: Service[] = [
       'Clear out fallen leaves before they smother your grass — bagged, hauled and hedges blown clean.',
     points: ['Full property cleanup', 'Bagging & hauling', 'Beds & walkways cleared'],
     image:
-      'https://images.pexels.com/photos/35224519/pexels-photo-35224519.jpeg?auto=compress&cs=tinysrgb&w=900',
-    alt: 'Pile of autumn leaves on a lawn',
+      'https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    alt: 'Golden autumn leaves covering a green lawn',
     tag: 'Autumn',
   },
   {
@@ -50,8 +50,8 @@ const services: Service[] = [
       'Seasonal deep cleanups that reset your yard after winter or prep it before the snow flies.',
     points: ['Debris & branch removal', 'Bed refresh & mulch', 'Lawn prep'],
     image:
-      'https://images.pexels.com/photos/16442678/pexels-photo-16442678.jpeg?auto=compress&cs=tinysrgb&w=900',
-    alt: 'Gardener raking leaves in a park',
+      'https://images.pexels.com/photos/18928315/pexels-photo-18928315.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    alt: 'Worker raking autumn leaves during a seasonal cleanup',
     tag: 'Seasonal',
   },
   {
@@ -60,8 +60,8 @@ const services: Service[] = [
       'Reliable driveway, walkway and entrance clearing so you can get out safely after every storm.',
     points: ['Driveway clearing', 'Walkways & steps', 'Salting available'],
     image:
-      'https://images.pexels.com/photos/6944210/pexels-photo-6944210.jpeg?auto=compress&cs=tinysrgb&w=900',
-    alt: 'Snowy driveway beside a home in winter',
+      'https://images.pexels.com/photos/6952503/pexels-photo-6952503.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    alt: 'Person clearing snow with a shovel from a driveway',
     tag: 'Winter',
   },
 ];

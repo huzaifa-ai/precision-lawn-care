@@ -34,8 +34,8 @@ export function About() {
           <div className="reveal relative order-2 lg:order-1">
             <div className="relative overflow-hidden rounded-[2rem] shadow-xl shadow-primary/10">
               <img
-                src="https://images.pexels.com/photos/9029162/pexels-photo-9029162.jpeg?auto=compress&cs=tinysrgb&w=1000"
-                alt="Lawn care professional at work"
+                src="https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                alt="Beautifully maintained yard and garden"
                 loading="lazy"
                 className="aspect-[4/3] w-full object-cover"
               />

@@ -5,10 +5,10 @@ import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import { MessageCircle, ClipboardCheck, Scissors, Repeat } from 'lucide-react';
 
 const steps = [
-  { icon: MessageCircle, t: 'Send a text', d: 'Describe your yard and what you need. Photos help — but aren’t required.', img: 'https://images.pexels.com/photos/4162016/pexels-photo-4162016.jpeg?auto=compress&cs=tinysrgb&w=900' },
-  { icon: ClipboardCheck, t: 'Get a fair quote', d: 'A clear, no-obligation price straight from the owner. No call centres.', img: 'https://images.pexels.com/photos/19271862/pexels-photo-19271862.jpeg?auto=compress&cs=tinysrgb&w=900' },
-  { icon: Scissors, t: 'We do the work', d: 'Precise mowing, edging, cleanups or clearing — done right, on schedule.', img: 'https://images.pexels.com/photos/16442678/pexels-photo-16442678.jpeg?auto=compress&cs=tinysrgb&w=900' },
-  { icon: Repeat, t: 'Enjoy, repeat', d: 'Set up recurring visits and stop thinking about your yard altogether.', img: 'https://images.pexels.com/photos/9029162/pexels-photo-9029162.jpeg?auto=compress&cs=tinysrgb&w=900' },
+  { icon: MessageCircle, t: 'Send a text', d: 'Describe your yard and what you need. Photos help — but aren’t required.', img: 'https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { icon: ClipboardCheck, t: 'Get a fair quote', d: 'A clear, no-obligation price straight from the owner. No call centres.', img: 'https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { icon: Scissors, t: 'We do the work', d: 'Precise mowing, edging, cleanups or clearing — done right, on schedule.', img: 'https://images.pexels.com/photos/12087398/pexels-photo-12087398.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { icon: Repeat, t: 'Enjoy, repeat', d: 'Set up recurring visits and stop thinking about your yard altogether.', img: 'https://images.pexels.com/photos/1453499/pexels-photo-1453499.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export function Process() {
